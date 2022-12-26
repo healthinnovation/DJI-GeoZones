@@ -5,7 +5,8 @@
   var map = new ol.Map({
     layers: [
       new ol.layer.Tile({
-        source: new ol.source.OSM()
+        source: new ol.source.OSM({attributions:["Desarrollado por Antony Barja <img src='https://raw.githubusercontent.com/ambarja/ambarja.github.io/gh-pages/data/images/favicon.ico' width='12px' align='center'> - "]})
+        
       }),
       new ol.layer.Vector({
         source: new ol.source.Vector({
@@ -45,7 +46,7 @@
     theme: 'light',
     i18n: {
       labels: {
-        djiGeoZones: 'My Geozones'
+        djiGeoZones: 'Leyenda'
       }
     }
   };

@@ -759,7 +759,7 @@
                                 ? true
                                 : false,
                         source: new VectorSource__default["default"]({
-                            attributions: '<a href="https://www.dji.com/flysafe/geo-map" rel="nofollow noopener noreferrer" target="_blank">DJI GeoZoneMap</a>'
+                            attributions: '<a href="https://www.dji.com/flysafe/geo-map" rel="nofollow noopener noreferrer" target="_blank">Innovalab❤️</a>'
                         }),
                         style: styleFunction
                     };
